@@ -28,7 +28,8 @@ How to run
 
 Clone the First_Flask_Platform from Github into a local directory.
 Open the package in an IDE, such as Eclipse, and execute run.py, which is located in the First_Flask_Platform folder.
-Alternatively, using a terminal cd into the directory containing the package. In the First_Flask_Platform folder execute the following command: python -m flask run.
+Alternatively, using a command line cd into the directory containing the package. In the First_Flask_Platform folder execute the following commands: 
+export (or for Windows, set) FLASK_APP=run. Then, flask run.
 Switch to a browser, and enter: localhost:5000.
 
 Credits

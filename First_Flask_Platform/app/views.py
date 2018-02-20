@@ -1,10 +1,10 @@
 from flask import render_template
 from app import app
-import systeminfo.main
+import SystemInfo.main
 
 @app.route('/')
 def index():
-    sysInfo = systeminfo.main.main()
+    sysInfo = SystemInfo.main.main()
     returnDict = {}
     returnDict['title'] = 'Assignment 2: Flask & Systeminfo'
     returnDict['heading'] = 'COMP30670'

@@ -27,9 +27,10 @@ How to run
 ----------
 
 Clone the First_Flask_Platform from Github into a local directory.
+As a prerequisite, the SystemInfo module is required to run this package. SystemInfo can be cloned via https://github.com/neuJump/COMP30670-Assignment2-SystemInfo.
 Open the package in an IDE, such as Eclipse, and execute run.py, which is located in the First_Flask_Platform folder.
 Alternatively, using a command line cd into the directory containing the package. In the First_Flask_Platform folder execute the following commands: 
-export (or for Windows, set) FLASK_APP=run. Then, flask run.
+export (or for Windows, set) FLASK_APP=run. Then, flask run. Or you can simply execute in the directory containing First_Flask_Platform the following command: python run.py.
 Switch to a browser, and enter: localhost:5000.
 
 Credits
